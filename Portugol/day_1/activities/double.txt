@@ -1,0 +1,12 @@
+Algoritmo "Double"
+
+Var
+    a: Real
+
+Inicio
+    Escreval("Insira um numero: ")
+    Leia(a)
+
+    Escreval(a * 2)
+    
+FimAlgoritmo

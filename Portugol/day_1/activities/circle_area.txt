@@ -1,0 +1,27 @@
+Algoritmo "CircleArea"
+
+Var
+    raio, area: Real
+    PI: Real
+Const
+    PI = 3.14159265359
+Inicio
+    Escreva("Digite o valor do raio do círculo: ")
+    Leia(raio)
+    
+    Se raio <= 0 Entao
+        Escreval("ERRO: O raio deve ser um valor positivo maior que zero!")
+    Senao
+        area <- PI * raio ^ 2
+        
+        Escreval("===================================")
+        Escreval("Resultado do cálculo:")
+        Escreval("Raio informado: ", raio)
+        Escreval("Valor de PI: ", PI)
+        Escreval("Área do círculo: ", area:10:4, " unidades²")
+        Escreval("===================================")
+    FimSe
+    
+    Escreval("Pressione qualquer tecla para finalizar...")
+    Leia()
+FimAlgoritmo

@@ -1,0 +1,26 @@
+Algoritmo "RectangleArea"
+
+Var 
+    base, altura: Real
+    unidadeBase, unidadeAltura, unidadeArea: Caractere
+
+Inicio
+    Escreval("Qual a base do retangulo? (valor)")
+    Leia(base)
+    Escreval("Qual a unidade de medida da base? (ex: cm, m, km)")
+    Leia(unidadeBase)
+
+    Escreval("Qual a altura do retangulo? (valor)")
+    Leia(altura)
+    Escreval("Qual a unidade de medida da altura? (ex: cm, m, km)")
+    Leia(unidadeAltura)
+
+    Se (unidadeBase = unidadeAltura) Entao
+        unidadeArea <- unidadeBase + "²"
+        Escreval("A area do retangulo eh: ", base * altura, " ", unidadeArea)
+    Senao
+        Escreval("As unidades de medida são diferentes.")
+        Escreval("A area do retangulo eh: ", base * altura, " ", unidadeBase, " × ", unidadeAltura)
+    FimSe
+
+FimAlgoritmo

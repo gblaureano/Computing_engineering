@@ -1,0 +1,43 @@
+Algoritmo "Calculator"
+
+Var
+    a: Real
+    b: Real
+    opt: Inteiro
+
+Inicio
+    Escreval("Insira o primeiro numero: ")
+    Leia(a)
+    Escreval("Insira o segundo numero: ")
+    Leia(b)
+
+    Escreval("Selecione uma opcao")
+    Escreval("-----------------------------------")
+    Escreval("1 - Somar")
+    Escreval("2 - Subtrair")
+    Escreval("3 - Multiplicar")
+    Escreval("4 - Divisao real")
+    Escreval("5 - Divisao inteira")
+    Escreval("6 - Resto da divisao")
+    Escreval("0 - Sair")
+    Escreval("-----------------------------------")
+
+    Leia(opt)
+
+    Escolha opt
+        Caso 1
+            Escreva(a + b)
+        Caso 2
+            Escreva(a - b)
+        Caso 3
+            Escreva(a * b)
+        Caso 4
+            Escreva(a / b)
+        Caso 5
+            Escreva(a \ b)
+        Caso 6
+            Escreva(a % b)
+        Caso 0
+            FimEscolha
+    FimEscolha
+FimAlgoritmo

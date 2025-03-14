@@ -1,0 +1,37 @@
+Algoritmo "PersonalInfos"
+
+Var
+   nome: Caractere
+   idade: Inteiro
+   altura: Real
+   estuda_programacao: Logico
+   
+Inicio
+
+      Escreval("-------------------------------------")
+      Escreval("Insira o seu nome: ")
+      Leia(nome)
+      
+      Escreval("Insira a sua idade: ")
+      Leia(idade)
+      
+      Escreval("Insira a sua altura: ")
+      Leia(altura)
+      
+      Escreval("Estuda programacao? ")
+      Leia(estuda_programacao)
+      
+      Escreval("-------------------------------------")
+      Escreval(nome)
+      Escreval(idade)
+      Escreval(altura)
+
+      Se estuda_programacao = Verdadeiro Entao
+         Escreval("Estuda programacao")
+      Senao
+         Escreval("Nao estuda programacao")
+      FimSe
+      
+      Escreval("-------------------------------------")
+      
+Fimalgoritmo
